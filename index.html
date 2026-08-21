@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>骨董買取センター</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;700&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --primary-color: #8c2a2a;
+            --bg-color: #fdfbf7;
+            --card-bg: #ffffff;
+            --text-color: #2b2b2b;
+            --text-muted: #666666;
+            --border-color: #e5e0d8;
+            --max-width: 1000px;
+        }
+
+        * { box-sizing: border-box; margin: 0; padding: 0; }
+        body { font-family: 'Noto Sans JP', serif; background-color: var(--bg-color); color: var(--text-color); line-height: 1.8; }
+        header { background-color: #ffffff; border-bottom: 1px solid var(--border-color); padding: 1.5rem 2rem; text-align: center; }
+        .logo { font-size: 1.5rem; font-weight: 700; color: var(--primary-color); letter-spacing: 2px; }
+        .hero { max-width: var(--max-width); margin: 0 auto; padding: 5rem 2rem; text-align: center; }
+        .hero h1 { font-size: 2.2rem; margin-bottom: 1rem; color: var(--primary-color); }
+        .hero p { color: var(--text-muted); font-size: 1.1rem; margin-bottom: 2rem; }
+        .cta-button { display: inline-block; padding: 1rem 2.5rem; background-color: var(--primary-color); color: #fff; font-weight: 500; border-radius: 4px; text-decoration: none; }
+        .cta-button:hover { opacity: 0.9; }
+        section { max-width: var(--max-width); margin: 0 auto; padding: 3rem 2rem; }
+        .card { background: var(--card-bg); border: 1px solid var(--border-color); padding: 2rem; border-radius: 8px; margin-top: 1rem; }
+        footer { border-top: 1px solid var(--border-color); text-align: center; padding: 2rem; font-size: 0.85rem; color: var(--text-muted); margin-top: 4rem; }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="logo">骨董買取センター</div>
+    </header>
+    <section class="hero">
+        <h1>ご自宅に眠る価値ある品を、<br>丁寧に査定・買取いたします。</h1>
+        <p>掛軸・茶道具・陶磁器・美術品など、専門の鑑定士が真心を込めて査定いたします。</p>
+        <a href="#contact" class="cta-button">無料査定のお申し込み</a>
+    </section>
+    <section id="about">
+        <h2>骨董買取センターについて</h2>
+        <div class="card">
+            <p>確かな目利きと丁寧な接客で、お客様の大切な品物を適切に評価・買取いたします。出張査定・店頭査定ともに対応しておりますので、お気軽にご相談ください。</p>
+        </div>
+    </section>
+    <section id="contact">
+        <h2>お問い合わせ</h2>
+        <div class="card" style="text-align: center;">
+            <p>お電話またはメールにてお気軽にご連絡ください。</p>
+            <p style="margin-top: 1rem; font-size: 1.2rem; font-weight: bold; color: var(--primary-color);">電話番号: 00-0000-0000</p>
+        </div>
+    </section>
+    <footer>
+        <p>&copy; 骨董買取センター All Rights Reserved.</p>
+    </footer>
+</body>
+</html>
